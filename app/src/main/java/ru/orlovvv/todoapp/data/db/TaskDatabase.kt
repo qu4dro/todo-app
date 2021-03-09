@@ -13,7 +13,8 @@ import javax.inject.Provider
 
 @Database(
     entities = [TaskItem::class],
-    version = 1
+    version = 1,
+    exportSchema = false
 )
 abstract class TaskDatabase : RoomDatabase() {
 
