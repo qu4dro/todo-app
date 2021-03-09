@@ -1,7 +1,8 @@
-package ru.orlovvv.todoapp
+package ru.orlovvv.todoapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ru.orlovvv.todoapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
