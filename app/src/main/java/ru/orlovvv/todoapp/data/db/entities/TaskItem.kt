@@ -21,7 +21,7 @@ data class TaskItem(
 ) : Parcelable {
 
     @PrimaryKey(autoGenerate = true)
-    val id: Int? = null
+    var id: Int? = null
     val dateFormatted: String
         get() = DateFormat.getDateTimeInstance().format(dateCreated)
 }
